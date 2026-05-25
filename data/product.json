@@ -1,0 +1,42 @@
+{
+  "name": "糖吉宴遇™压片糖果",
+  "category": "压片糖果",
+  "spec": "2g (1g/粒×2粒×1袋)",
+  "shelfLife": "12个月",
+  "storage": "置阴凉干燥通风处保存",
+  "origin": "江苏省盐城市",
+  "executiveStandard": "Q/SXCYY 0015S-2026",
+  "productionLicense": "SC10632092500790",
+  "serviceHotline": "0510-85090956",
+  "principal": {
+    "name": "江苏糖吉吉享健康科技有限公司",
+    "address": "无锡市梁溪区杨岸路200号一号楼三楼301室"
+  },
+  "contractor": {
+    "name": "江苏司诺药业有限公司",
+    "address": "盐城市建湖县颜单科技创业园6号"
+  },
+  "dosage": {
+    "method": "餐前5-10分钟，每次2-4粒，温开水吞服",
+    "maxDaily": "每日不超过10粒"
+  },
+  "limits": {
+    "ginsengPowder": "≤3g/天",
+    "riceBranFattyAlcohol": "≤300mg/天"
+  },
+  "unsuitable": ["孕妇", "哺乳期妇女", "14周岁以下儿童"],
+  "allergens": ["大豆及其制品"],
+  "nutrition": {
+    "energy": {"value": "1556kJ", "nrv": "19%"},
+    "protein": {"value": "1.9g", "nrv": "3%"},
+    "fat": {"value": "1.2g", "nrv": "2%"},
+    "carbohydrate": {"value": "87.0g", "nrv": "29%"},
+    "sodium": {"value": "1520mg", "nrv": "76%"}
+  },
+  "ingredients": [
+    "麦芽糖醇", "微晶纤维素", "羧甲基纤维素钠", "葛根粉", "复合发酵醋粉",
+    "枳椇子粉", "姜黄粉", "绿茶粉", "海藻酸钠", "麦芽糊精",
+    "米糠脂肪烷醇", "α-环状糊精", "藿香粉", "人参粉(人工种植)",
+    "天然薄荷脑", "碳酸钙", "硬脂酸镁"
+  ]
+}

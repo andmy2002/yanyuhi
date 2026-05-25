@@ -1,0 +1,95 @@
+{
+  "gelPatent": {
+    "patents": [
+      {
+        "patentNumber": "CN117044946A",
+        "inventionName": "解酒凝胶微粒及其制备方法",
+        "corePosition": "胃+肠道双稳定酒精吸附凝胶",
+        "publicationDate": "2023.11.14"
+      },
+      {
+        "patentNumber": "CN119699584A",
+        "inventionName": "用于吸附酒精的食用凝胶组合物",
+        "corePosition": "高吸附率食用级解酒凝胶",
+        "publicationDate": "2025.03.28"
+      },
+      {
+        "patentNumber": "CN119700647A",
+        "inventionName": "用于锁酒和解酒的胃内驻留凝胶组合物",
+        "corePosition": "胃内驻留+益生菌转化酒精",
+        "publicationDate": "2025.03.28"
+      }
+    ],
+    "formulaSystem": {
+      "baseSkeleton": [
+        {
+          "name": "羧甲基纤维素钠 (CMC-Na)",
+          "viscosity": "5000-9000 mPa·s",
+          "function": "形成凝胶网络骨架"
+        },
+        {
+          "name": "海藻酸钠 (SA)",
+          "viscosity": "1000-10000 mPa·s",
+          "function": "增强凝胶稳定性和吸附能力"
+        }
+      ],
+      "crosslinkingSystem": [
+        {
+          "patent": "CN117044946A",
+          "agent": "柠檬酸",
+          "ratio": "0.001-0.1:1 (交联剂:CMC-Na)"
+        },
+        {
+          "patent": "CN119699584A/CN119700647A",
+          "agent": "钙源 (碳酸钙/乳酸钙/柠檬酸钙)",
+          "ratio": "f=0.1-1.5 (Ca²+/海藻酸羧基)"
+        }
+      ],
+      "functionalEnhancement": [
+        {
+          "patent": "CN119700647A",
+          "component": "酒精转化益生菌/复合发酵醋粉",
+          "content": "≥5% (优选≥10%)",
+          "species": ["醋酸杆菌", "凝结芽孢杆菌", "枯草芽孢杆菌"],
+          "function": "将酒精转化为乙酸→CO₂+H₂O"
+        }
+      ]
+    },
+    "technicalParameters": {
+      "particleSize": {"value": "0.1-2mm", "preferred": "100-1000μm ≥95%", "patent": "CN117044946A"},
+      "waterAbsorptionRate": {"value": "≥10倍", "patent": "CN117044946A"},
+      "alcoholAdsorptionRate43": {"value": "≥700%", "patent": "CN119699584A"},
+      "elasticModulus": {"value": ">1000Pa", "preferred": ">2000Pa", "patent": "CN119700647A"},
+      "alcoholAdsorptionRateEnhanced": {"value": "≥1000%", "patent": "CN119700647A"}
+    },
+    "mechanism": {
+      "type": "物理吸附+肠道锁酒+益生菌转化",
+      "actionSite": "胃部",
+      "process": [
+        "1. 片剂进入胃部后迅速吸水膨胀",
+        "2. 形成三维网络凝胶结构",
+        "3. 通过物理吸附作用包裹酒精分子",
+        "4. 凝胶结构稳定，不被胃液破坏",
+        "5. 携带酒精通过肠道排出体外",
+        "6. 益生菌可将部分酒精转化为乙酸→CO₂+H₂O"
+      ]
+    }
+  },
+  "otherIngredients": [
+    {"name": "葛根粉", "function": "传统解酒食材"},
+    {"name": "枳椇子粉", "function": "传统护肝食材"},
+    {"name": "姜黄粉", "function": "抗氧化"},
+    {"name": "绿茶粉", "function": "抗氧化"},
+    {"name": "米糠脂肪烷醇", "function": "护肝成分", "limit": "≤300mg/天"},
+    {"name": "α-环状糊精", "function": "包合剂"},
+    {"name": "藿香粉", "function": "芳香化浊"},
+    {"name": "人参粉(人工种植)", "function": "滋补成分", "limit": "≤3g/天"}
+  ],
+  "allergens": ["大豆及其制品"],
+  "fullIngredients": [
+    "麦芽糖醇", "微晶纤维素", "羧甲基纤维素钠", "葛根粉", "复合发酵醋粉",
+    "枳椇子粉", "姜黄粉", "绿茶粉", "海藻酸钠", "麦芽糊精",
+    "米糠脂肪烷醇", "α-环状糊精", "藿香粉", "人参粉(人工种植)",
+    "天然薄荷脑", "碳酸钙", "硬脂酸镁"
+  ]
+}

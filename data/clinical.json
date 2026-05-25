@@ -1,0 +1,71 @@
+{
+  "patentTechnology": {
+    "patents": [
+      {
+        "patentNumber": "CN117044946A",
+        "inventionName": "解酒凝胶微粒及其制备方法",
+        "corePosition": "胃+肠道双稳定酒精吸附凝胶",
+        "publicationDate": "2023.11.14",
+        "formula": {
+          "ratio": "海藻酸钠:羧甲基纤维素钠 = 0.1-5:1",
+          "crosslinkerRatio": "交联剂（柠檬酸）:羧甲基纤维素钠 = 0.001-0.1:1",
+          "particleSize": "100-1000μm 占比 ≥95%",
+          "waterAbsorptionRate": "≥10倍"
+        }
+      },
+      {
+        "patentNumber": "CN119699584A",
+        "inventionName": "用于吸附酒精的食用凝胶组合物",
+        "corePosition": "高吸附率食用级解酒凝胶",
+        "publicationDate": "2025.03.28",
+        "formula": {
+          "W1": "12%-35%",
+          "f": "0.1-1.2",
+          "alcoholAdsorptionRate": "≥700%（43%白酒）",
+          "concentration": "4%-15%",
+          "particleSize": "0.3-1mm"
+        }
+      },
+      {
+        "patentNumber": "CN119700647A",
+        "inventionName": "用于锁酒和解酒的胃内驻留凝胶组合物",
+        "corePosition": "胃内驻留+益生菌转化酒精",
+        "publicationDate": "2025.03.28",
+        "formula": {
+          "W1": "13%-25%",
+          "W2": "≥5%（优选≥10%）",
+          "f": "0.2-1.5",
+          "alcoholAdsorptionRate": "≥1000%（43%酒精）",
+          "elasticModulus": ">1000Pa（优选>2000Pa）"
+        }
+      }
+    ],
+    "keyParameters": [
+      {"parameter": "粒径", "value": "0.1-2mm (优选100-1000μm ≥95%)", "patent": "CN117044946A"},
+      {"parameter": "介质吸水倍率", "value": "≥10倍", "patent": "CN117044946A"},
+      {"parameter": "酒精吸附率（43%白酒）", "value": "≥700%", "patent": "CN119699584A"},
+      {"parameter": "凝胶弹性模量", "value": ">1000Pa (优选>2000Pa)", "patent": "CN119700647A"},
+      {"parameter": "对43%酒精吸附率", "value": "≥1000%", "patent": "CN119700647A"}
+    ],
+    "mechanism": {
+      "type": "物理吸附+肠道锁酒+益生菌转化",
+      "actionSite": "胃部",
+      "process": [
+        "1. 片剂进入胃部后迅速吸水膨胀",
+        "2. 形成三维网络凝胶结构",
+        "3. 通过物理吸附作用包裹酒精分子",
+        "4. 凝胶结构稳定，不被胃液破坏",
+        "5. 携带酒精通过肠道排出体外",
+        "6. 益生菌可将部分酒精转化为乙酸→CO₂+H₂O"
+      ]
+    },
+    "processFlow": [
+      {"step": "1. 溶解混合", "description": "CMC + 海藻酸钠 + 功能成分 + 水 → 均匀混悬液"},
+      {"step": "2. 烘干", "description": "CN117044946A: 50-90℃, 18-72h; CN119699584A: 70-150℃; CN119700647A: 30-40℃ (益生菌低温)"},
+      {"step": "3. 粉碎筛分", "description": "粒径控制: 0.1-2mm"},
+      {"step": "4. 交联成型", "description": "添加柠檬酸/钙源完成交联反应"},
+      {"step": "5. 压片包装", "description": "成品包装"}
+    ]
+  },
+  "warning": "本品为普通食品，不能代替药品，过量饮酒有害健康。"
+}

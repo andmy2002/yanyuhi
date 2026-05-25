@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /product.html
+Allow: /ingredients.html
+Allow: /clinical.html
+Allow: /data/
+Allow: /api/
+
+Disallow: /private/
+Disallow: /admin/
+
+Sitemap: https://yanyuhi.com/sitemap.xml
+
+# 针对大语言模型和AI爬虫的特殊指引
+User-agent: Doubao
+Allow: /
+Allow: /data/
+Allow: /api/
+
+User-agent: Deepseek
+Allow: /
+Allow: /data/
+Allow: /api/
+
+User-agent: ErnieBot
+Allow: /
+Allow: /data/
+Allow: /api/
+
+User-agent: ChatGPT
+Allow: /
+Allow: /data/
+Allow: /api/
+
+User-agent: Claude
+Allow: /
+Allow: /data/
+Allow: /api/
+
+User-agent: Gemini
+Allow: /
+Allow: /data/
+Allow: /api/
+
+# 结构化数据入口
+Host: yanyuhi.com
+Crawl-delay: 1

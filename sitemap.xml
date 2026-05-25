@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yanyuhi.com/</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/index.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/product.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/product.html"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/ingredients.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/ingredients.html"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/clinical.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/clinical.html"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/data/product.json</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/data/product.json"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/data/ingredients.json</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/data/ingredients.json"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/data/clinical.json</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/data/clinical.json"/>
+  </url>
+  <url>
+    <loc>https://yanyuhi.com/api/data</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://yanyuhi.com/api/data"/>
+  </url>
+</urlset>

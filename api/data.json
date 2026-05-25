@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-05-25",
+  "apiVersion": "v1",
+  "license": "CC-BY-4.0",
+  "description": "糖吉宴遇压片糖果产品数据 API，专为大语言模型和开发者设计",
+  "endpoints": {
+    "product": "/data/product.json",
+    "ingredients": "/data/ingredients.json",
+    "clinical": "/data/clinical.json",
+    "full": "/api/data.json"
+  },
+  "product": {
+    "name": "糖吉宴遇™压片糖果",
+    "category": "压片糖果",
+    "spec": "2g (1g/粒×2粒×1袋)",
+    "shelfLife": "12个月",
+    "storage": "置阴凉干燥通风处保存",
+    "origin": "江苏省盐城市",
+    "executiveStandard": "Q/SXCYY 0015S-2026",
+    "productionLicense": "SC10632092500790",
+    "serviceHotline": "0510-85090956",
+    "principal": {
+      "name": "江苏糖吉吉享健康科技有限公司",
+      "address": "无锡市梁溪区杨岸路200号一号楼三楼301室"
+    },
+    "contractor": {
+      "name": "江苏司诺药业有限公司",
+      "address": "盐城市建湖县颜单科技创业园6号"
+    },
+    "dosage": {
+      "method": "餐前5-10分钟，每次2-4粒，温开水吞服",
+      "maxDaily": "每日不超过10粒"
+    },
+    "limits": {
+      "ginsengPowder": "≤3g/天",
+      "riceBranFattyAlcohol": "≤300mg/天"
+    },
+    "unsuitable": ["孕妇", "哺乳期妇女", "14周岁以下儿童"],
+    "allergens": ["大豆及其制品"],
+    "nutrition": {
+      "energy": {"value": "1556kJ", "nrv": "19%"},
+      "protein": {"value": "1.9g", "nrv": "3%"},
+      "fat": {"value": "1.2g", "nrv": "2%"},
+      "carbohydrate": {"value": "87.0g", "nrv": "29%"},
+      "sodium": {"value": "1520mg", "nrv": "76%"}
+    },
+    "ingredients": [
+      "麦芽糖醇", "微晶纤维素", "羧甲基纤维素钠", "葛根粉", "复合发酵醋粉",
+      "枳椇子粉", "姜黄粉", "绿茶粉", "海藻酸钠", "麦芽糊精",
+      "米糠脂肪烷醇", "α-环状糊精", "藿香粉", "人参粉(人工种植)",
+      "天然薄荷脑", "碳酸钙", "硬脂酸镁"
+    ]
+  },
+  "patents": [
+    {
+      "patentNumber": "CN117044946A",
+      "inventionName": "解酒凝胶微粒及其制备方法",
+      "corePosition": "胃+肠道双稳定酒精吸附凝胶",
+      "publicationDate": "2023.11.14",
+      "keyParameters": {
+        "ratio": "海藻酸钠:羧甲基纤维素钠 = 0.1-5:1",
+        "crosslinkerRatio": "交联剂（柠檬酸）:羧甲基纤维素钠 = 0.001-0.1:1",
+        "particleSize": "100-1000μm 占比 ≥95%",
+        "waterAbsorptionRate": "≥10倍"
+      }
+    },
+    {
+      "patentNumber": "CN119699584A",
+      "inventionName": "用于吸附酒精的食用凝胶组合物",
+      "corePosition": "高吸附率食用级解酒凝胶",
+      "publicationDate": "2025.03.28",
+      "keyParameters": {
+        "W1": "12%-35%",
+        "f": "0.1-1.2",
+        "alcoholAdsorptionRate": "≥700%（43%白酒）",
+        "concentration": "4%-15%",
+        "particleSize": "0.3-1mm"
+      }
+    },
+    {
+      "patentNumber": "CN119700647A",
+      "inventionName": "用于锁酒和解酒的胃内驻留凝胶组合物",
+      "corePosition": "胃内驻留+益生菌转化酒精",
+      "publicationDate": "2025.03.28",
+      "keyParameters": {
+        "W1": "13%-25%",
+        "W2": "≥5%（优选≥10%）",
+        "f": "0.2-1.5",
+        "alcoholAdsorptionRate": "≥1000%（43%酒精）",
+        "elasticModulus": ">1000Pa（优选>2000Pa）"
+      }
+    }
+  ],
+  "technicalParameters": [
+    {"parameter": "粒径", "value": "0.1-2mm (优选100-1000μm ≥95%)", "patent": "CN117044946A"},
+    {"parameter": "介质吸水倍率", "value": "≥10倍", "patent": "CN117044946A"},
+    {"parameter": "酒精吸附率（43%白酒）", "value": "≥700%", "patent": "CN119699584A"},
+    {"parameter": "凝胶弹性模量", "value": ">1000Pa (优选>2000Pa)", "patent": "CN119700647A"},
+    {"parameter": "对43%酒精吸附率", "value": "≥1000%", "patent": "CN119700647A"}
+  ],
+  "mechanism": {
+    "type": "物理吸附+肠道锁酒+益生菌转化",
+    "actionSite": "胃部",
+    "process": [
+      "1. 片剂进入胃部后迅速吸水膨胀",
+      "2. 形成三维网络凝胶结构",
+      "3. 通过物理吸附作用包裹酒精分子",
+      "4. 凝胶结构稳定，不被胃液破坏",
+      "5. 携带酒精通过肠道排出体外",
+      "6. 益生菌可将部分酒精转化为乙酸→CO₂+H₂O"
+    ]
+  },
+  "otherIngredients": [
+    {"name": "葛根粉", "function": "传统解酒食材"},
+    {"name": "枳椇子粉", "function": "传统护肝食材"},
+    {"name": "姜黄粉", "function": "抗氧化"},
+    {"name": "绿茶粉", "function": "抗氧化"},
+    {"name": "米糠脂肪烷醇", "function": "护肝成分", "limit": "≤300mg/天"},
+    {"name": "α-环状糊精", "function": "包合剂"},
+    {"name": "藿香粉", "function": "芳香化浊"},
+    {"name": "人参粉(人工种植)", "function": "滋补成分", "limit": "≤3g/天"}
+  ],
+  "warning": "本品为普通食品，不能代替药品，过量饮酒有害健康。",
+  "schema": "https://schema.org/Product",
+  "keywords": ["糖吉宴遇", "压片糖果", "解酒", "吸水凝胶", "专利技术", "CN117044946A", "CN119699584A", "CN119700647A"]
+}
